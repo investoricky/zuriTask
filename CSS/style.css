@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Oxygen&display=swap');
+
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Balsamiq Sans', cursive;
+    text-decoration: none !important;
+}
+.headerWrap {
+    padding-top: 100px !important;
+    position: relative;
+}
+.headerWrap .nameWrap {
+    background-color: #fff;
+    border: 1px solid #FCBE4B;
+    width: 30%;
+    position: absolute;
+    top: 3.5rem;
+    left: 30rem;
+}
+.headerWrap .nameWrap h2 {
+    font-size: 45px;
+}
+.headerWrap .nameWrap span {
+    color: #FEA400;
+}
+.headerWrap .stackWrap {
+    background-color: #F2F2F2;
+}
+.headerWrap .stackWrap p {
+    font-size: 30px;
+}
+.infoWrap {
+    padding: 20px 150px !important;
+}
+.infoWrap .contactWrap {
+    border-right: 2px solid #FEA400;
+}
+.experienceWrap .writeUp,
+.experienceWrap ul {
+    font-size: 13px;
+}
+.hngWrap img {
+    border-radius: 50%;
+    width: 2rem;
+}
+
+
+@media (max-width: 768px) {
+    .headerWrap {
+        padding-top: 20px !important;
+        position: unset;
+    }
+    .headerWrap .nameWrap {
+        margin: 0 auto !important;
+        width: 90%;
+        position: unset;
+        padding: 10px !important;
+    }
+    .headerWrap .nameWrap h2 {
+        font-size: 30px;
+    }
+    .headerWrap .stackWrap p {
+        font-size: 20px;
+    }
+    .infoWrap {
+        padding: 10px !important;
+    }
+    .text-right {
+        text-align: start !important;
+    }
+    .infoWrap .contactWrap {
+        border-right: none;
+        border-bottom: 2px solid #FEA400;
+    }
+    .experienceWrap {
+        margin-top: 15px !important;
+    }
+}
